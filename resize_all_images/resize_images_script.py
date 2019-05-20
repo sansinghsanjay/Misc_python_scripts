@@ -41,7 +41,7 @@ for i in range(len(image_files)):
 	# calculate image_size_y
 	image_size_y = int(image_size_x * (image_size[1] / float(image_size[0])))
 	# resize image
-	image = cv2.resize(image, (image_size_x, image_size_y))
+	image = cv2.resize(image, (image_size_y, image_size_x))
 	# save image with the same name
 	cv2.imwrite(image_path + image_files[i], image)
 	# update status
