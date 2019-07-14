@@ -10,7 +10,7 @@ rand_seed = np.random.randint(0, 1000)
 random.seed(rand_seed)
 
 # dictionary file path
-dictionary_path = "/home/sansingh/github/Misc_python_scripts/EnglishVocab/dummyData.csv"
+dictionary_path = "/home/sansingh/github/Misc_python_scripts/EnglishVocab/addedWords.csv"
 
 # read file
 fileReadDict = open(dictionary_path, "r")
