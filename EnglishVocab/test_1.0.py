@@ -10,7 +10,7 @@ rand_seed = np.random.randint(0, 1000)
 random.seed(rand_seed)
 
 # dictionary file path
-dictionary_path = "/home/sansingh/github/Misc_python_scripts/EnglishVocab/addedWords.csv"
+dictionary_path = "/home/sansingh/github/Misc_python_scripts/EnglishVocab/addedWords.txt"
 
 # read file
 fileReadDict = open(dictionary_path, "r")
@@ -69,7 +69,7 @@ for i in range(len_quesList):
 		ans_ticks.append(int(tokens[j]))
 	print("-----------------------------------------------------------------------------------------")
 	# ask question
-	print("# Ques. " + str(i + 1) + " of " + str(len_quesList) + " - " + str(tokens[len(tokens) - 1]))
+	print("# Ques. " + str(i + 1) + " of " + str(len_quesList) + " #mistakes = " + str(tokens[len(tokens) - 1]))
 	print(ques)
 	while(True):
 		# ask for user input
@@ -93,7 +93,7 @@ for i in range(len_quesList):
 				ans_ticks[0] = 1
 				print(colored("INCORRECT", "red"))
 			print("Ans. " + str(ans))
-		elif(choice == ' '):
+		if(choice == ' '):
 			l = len(ans_ticks) - 1
 			while(l > 0):
 				ans_ticks[l] = ans_ticks[l - 1]
@@ -101,7 +101,7 @@ for i in range(len_quesList):
 			ans_ticks[0] = 1
 			print(colored("MISSED", "yellow"))
 			print("Ans. " + str(ans))
-		if(len(ans_ticks) > 1):
+		if(len(ans_ticks) > 1 and choice != "q"):
 			for j in range(len(ans_ticks)):
 				if(j == 0):
 					tokens = str(ans_ticks[j])
