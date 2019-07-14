@@ -120,8 +120,8 @@ for i in range(len_quesList):
 			fileWriteDict.write(dictData)
 			fileWriteDict.close()
 			print("Data Written Successfully")
-			perc = (score / float(i + 1)) * 100
-			print(colored("Your score is: " + str(score) + " out of " + str(i + 1) + ", " + str(perc) + " %", "blue"))
+			perc = (score / float(i)) * 100
+			print(colored("Your score is: " + str(score) + " out of " + str(i) + ", " + str(perc) + " %", "blue"))
 			print("BYE...")
 			sys.exit(0)
 
