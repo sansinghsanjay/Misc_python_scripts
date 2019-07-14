@@ -93,7 +93,6 @@ for i in range(len_quesList):
 				ans_ticks[0] = 1
 				print(colored("INCORRECT", "red"))
 			print("Ans. " + str(ans))
-			break
 		elif(choice == ' '):
 			l = len(ans_ticks) - 1
 			while(l > 0):
@@ -102,7 +101,6 @@ for i in range(len_quesList):
 			ans_ticks[0] = 1
 			print(colored("MISSED", "yellow"))
 			print("Ans. " + str(ans))
-			break
 		if(len(ans_ticks) > 1):
 			for j in range(len(ans_ticks)):
 				if(j == 0):
@@ -110,6 +108,7 @@ for i in range(len_quesList):
 				else:
 					tokens = tokens + ">" + str(ans_ticks[j])
 			dictLines[q_no] = ans + ">" + ques + ">" + tokens + ">" + str(sum(ans_ticks))
+			break
 		if(choice == "q"):
 			for j in range(len(dictLines)):
 				if(j == 0):
