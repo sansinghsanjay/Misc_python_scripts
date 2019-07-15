@@ -123,7 +123,7 @@ nuts>1)mad 2)supari [HINDI]>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>
 stigma>1)a mark of disgrace associated with a particular circumstance, quality or person, kalank, lanchan [HINDI]>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
 maculate>ganda karna, stain>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
 hookup>a connection or link, casual sex, an instance of people meeting, communicating or cooperating>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
-dibs>IT'S A SLANG FOR - the right to share or choose something, money>1>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>1
+dibs>IT'S A SLANG FOR - the right to share or choose something, money>0>0>0>0>0>1>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>1
 felicitation>words expressing praise for an achievement or good wishes on a special occasion>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
 mermaid>a mythical sea creature with the head and trunk of a woman and the tail of a fish, conventionally depicted as beautiful and with long flowing golden hair>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
 chafe>rub (a part of the body) to restory warmth or sensation>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
@@ -244,7 +244,7 @@ mischievous>naughty, causing or showing a fondness for causing trouble in a play
 nostalgic>sentimental / emotional for the past>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
 butt>1)the part of finished cigarette that has not been smoked. 2)slang for bottom>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
 articulate>having or showing the ability to speak fluently and coherently.>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
-humped>having a hump, curved, kubad [HINDI]>1>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>1
+humped>having a hump, curved, kubad [HINDI]>0>0>0>0>0>1>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>1
 dwell>live in or at a specified place, reside, live.>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
 commendable:deserving praise, admirable, praise worthy>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
 fatigue>extreme tiredness resulting from mental or physical exertion or illness.>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
@@ -261,7 +261,7 @@ adverse>unfavourable, preventing success>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
 fortnight>a period of two weeks>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
 admonish>scold / criticize>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
 meantime>until the occurence of some other event>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
-avid>having or showing a keen interest in or enthusiasm for something>1>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>1
+avid>having or showing a keen interest in or enthusiasm for something>0>0>0>0>0>1>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>1
 amid>surrounded by, in the middle of>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
 prophecy>a message that is claimed by a prophet to have been communicated to them by a god.>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
 prophet>a person regarded as an inspired teacher or proclaimer of the will of God.>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
@@ -320,7 +320,7 @@ turban>pagdi [HINDI]>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
 doppleganger>an appropriate or double of a living person, carbon-copy>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
 tenacious>drdh, atal [HINDI]>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
 venture>udyam [HINDI]>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
-spectacular>beautiful in a dramatic and eye catching way>1>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>1
+spectacular>beautiful in a dramatic and eye catching way>0>0>0>0>1>1>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>2
 analogy>samanta [HINDI]>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
 determination>drdh nishchay [HINDI]>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
 debt>a sum of money that is owed or due>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
@@ -333,7 +333,7 @@ distress>extreme anxiety, sorrow, or pain>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>
 betrayal>vishwasghaat [HINDI]>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
 deliberately>consciously and intentionally, in a careful and unhurried way>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
 crematorium>shamshaan ghaat [HINDI]>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
-itinerary>a planned route of journey>1>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>1
+itinerary>a planned route of journey>0>0>0>0>0>1>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>1
 seamless>smooth and continuous>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
 seam>a joint where two pieces of fabric are sewn together in a garment or other article>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
 autobiography>a story of a person"s life written by the same person>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
@@ -349,7 +349,7 @@ remuneration>money paid for work or a service>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>
 fowl>a bird kept for its flesh and eggs. a domestic cock or hen>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
 hen>female bird, murgi [HINDI]>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
 stoat>a kind of animal similary to mongoose, aka weasel.>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
-perch>an object on which a bird alights / sits>1>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>1
+perch>an object on which a bird alights / sits>0>0>0>0>1>1>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>2
 twilight>the soft glowing light from the sky when the sun is below the horizon>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
 mite>a minute insect that has eight legs, like spider, scorpion, etc>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
 tame>domesticated>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
@@ -369,9 +369,9 @@ sour>khatta [HINDI]>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>
 appetite>hunger>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
 appetizer>snacks / starter>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
 savory>salty>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
-tentalizing>tarsane wala [HINDI], mouthwatering>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
+tentalizing>tarsane wala [HINDI], mouthwatering>0>0>0>1>1>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>2
 pungent>strong smell, bitter taster, spicy-hot>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
-yummy>great tasting>1>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>1
+yummy>great tasting>0>0>0>0>0>1>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>1
 pavement>footpath>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
 abrasion>rubbing, gharsan [HINDI]>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
 rucksack>a bag with shoulder straps which allow it to be carried on someone"s back>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
@@ -392,7 +392,7 @@ toddler>a young child who is just beginning to walk>0>0>0>0>0>0>0>0>0>0>0>0>0>0>
 enact>make law, put into practice>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
 jingoistic>characterized by extreme patriotism, especially in the form of aggressive or war like foreign policy>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
 repercussion>an unintended consequence of an event or action, especially an unwelcome one.>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
-witty>humourous, amusing, funny>1>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>1
+witty>humourous, amusing, funny>0>0>0>0>0>1>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>1
 sledging>1)the activity of travelling or sliding downhill over snow on a sledge. 2)the practice of making taunting or teasing remarks on opposing player.>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
 merriment>gaiety and fun>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
 gaiety>the state or quality of being light-hearted or cheerful>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
@@ -496,7 +496,7 @@ starvation>suffering or death caused by lack of food>0>0>0>0>0>0>0>0>0>0>0>0>0>0
 fella>informal and non-standard spelling of fellow, a person"s boyfriend or lover>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
 creepy>causing an unpleasant feeling of fear or unease>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
 frisky>playfull and full of energy>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
-duel>a contest with deadly weapons arranged between two people in order to settle a point of honour, fight, clash, battle, combat>1>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>1
+duel>a contest with deadly weapons arranged between two people in order to settle a point of honour, fight, clash, battle, combat>0>0>0>0>0>1>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>1
 addendum>an item of additional material added at the end of a book or other puhblication>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
 calzone>a type of pizza that is folded in half before cooking to contain a filling>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
 swinger>1)a person who engages in group sex or the swapping of sexual partners. 2)a bowler who makes a delivery of a ball deviate side ways from a regular course in the air.>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
@@ -558,3 +558,30 @@ one and for all>[IDIOM] hamesha k liye [HINDI]>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
 damaged beyound repair>[IDIOM] irreparably damaged or harmed>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
 lethal>sufficient to cause death>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
 smug>having or showing an excessive pride in oneself or one"s achievements.>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
+quirks>a peculiar aspect of a person"s character or behaviour.>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
+temperament>a person"s or animal"s nature, especially as it permanently affects their behaviour.>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
+hiccup>hichaki [HINDI].>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
+burp>dakar [HINDI].>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
+come what may>kisi bhi keemat par [HINDI].>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
+skeptical / sceptical>not easily convinced or having doubts or reservations.>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
+slouching>sidha na khada hona ya sidha na betha [HINDI].>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
+something is fish>daal me kuch kala hai [HINDI].>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
+capitalism>an economic and political system in which a country"s trade and industry are controlled by private owners for profit, rather than by the government. Prices are affected by demand and supply rule, as well as competition among industrialists.>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
+capitalization>1)the action of writing or printing in capital letters or with an initial capital. 2)the provision of capital for a company, or the conversion of income or assets into capital.>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
+banish>1)send away from a country or place as an official punishment. 2)get rid of (something unwanted).>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
+hangup>an emotional problem or inhibition.>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
+inhibition>1)a feeling that makes one self-conscious and unable to act in a relaxed and natural way. 2)prohibition, forbidden 3)nishedh [HINDI].>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
+devour>1)eat (food or prey) hungrily or quickly 2)(of fire or a similar force) destroy completely 3)read quickly and eagerly.>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
+pupil>a person who is taught by another, especially a school child or student in relation to a teacher.>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
+expend>spend or use up.>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
+confectionery>sweets and chocolates considered collectively, a shop that sells sweets and chocolates.>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
+snag>an unexpected or hidden obstacle or drawback.>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
+STEM>Science, Technology, Engineering and Mathematics.>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
+distil>1)purify (a liquid) by heating it so that it vaporizes, then cooling and condensing the vapour and collecting the resulting liquid. 2)extract the essential meaning or most important aspects of.>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
+litter>1)make (a place or area) untidy with rubbish or a large number of objects left lying about. 2)provide (a horse or other animal) with litter as bedding.>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
+desperately>in a way that shows despair. used to emphasize the extreme degree of something.>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
+pivots>1)the central part, pin, or shaft on which a mechanism turns or oscillates. 2)the person or position that plays a central role in a situation or enterprise.>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
+mediocre>of only average quality, not very good.>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
+formidable>causing you to have fear or respect for something or someone because that thing or person is large, powerful, or difficult.>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
+rift>1)a crack, split or break in something. 2)a serious break in friendly relationship.>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
+mull>1)think about deeply and at length. 2)warm and add sugar and spices to it.>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0>0
