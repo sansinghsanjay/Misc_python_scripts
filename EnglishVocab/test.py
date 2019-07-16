@@ -7,6 +7,7 @@ from termcolor import colored
 
 # setting random seed
 rand_seed = np.random.randint(0, 1000)
+random.seed(rand_seed)
 
 # paths
 dictionary_path = "addedWords.csv"
@@ -44,6 +45,7 @@ for i in range(l):
 			print("Ans. " + str(ans))
 			break
 		elif(choice == ' '):
+			print(colored("MISSED", "yellow"))
 			print("Ans. " + str(ans))
 			break
 		elif(choice == "q"):
