@@ -20,7 +20,7 @@ dictLines = dictData.split("\n")
 # find out question numbers with highest mistakes
 mistakes = []
 for i in range(len(dictLines)):
-	splits = dictLines[i].split(">")
+	splits = dictLines[i].split("#")[0].split(">")
 	if(len(splits) > 2):
 		mistakes.append(int(splits[len(splits) - 1]))
 
@@ -61,7 +61,12 @@ len_quesList = len(quesList)
 for i in range(len_quesList):
 	# fetch question number, question and answer
 	q_no = quesList[i]
-	tokens = dictLines[q_no].split(">")
+	example = dictLines[q_no].split("#")
+	if(len(example) > 1):
+		example = example[1]
+	else:
+		example = ""
+	tokens = dictLines[q_no].split("#")[0].split(">")
 	ques = tokens[1]
 	ans = tokens[0].strip().lower()
 	ans_ticks = []
@@ -101,13 +106,14 @@ for i in range(len_quesList):
 			ans_ticks[0] = 1
 			print(colored("MISSED", "yellow"))
 			print("Ans. " + str(ans))
+		print(colored("Example: " + example, "cyan"))
 		if(len(ans_ticks) > 1 and choice != "q"):
 			for j in range(len(ans_ticks)):
 				if(j == 0):
 					tokens = str(ans_ticks[j])
 				else:
 					tokens = tokens + ">" + str(ans_ticks[j])
-			dictLines[q_no] = ans + ">" + ques + ">" + tokens + ">" + str(sum(ans_ticks))
+			dictLines[q_no] = ans + ">" + ques + ">" + tokens + ">" + str(sum(ans_ticks)) + "#" + example
 			break
 		if(choice == "q"):
 			for j in range(len(dictLines)):
