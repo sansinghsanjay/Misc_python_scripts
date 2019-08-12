@@ -1,35 +1,103 @@
-# libraries
+#libraries
 import numpy as np
 import pandas as pd
 import random
 import sys
 from termcolor import colored
+import time
+
+# function to calculate duration
+def getDuration(t_diff):
+	h = int(t_diff // 3600)
+	q = t_diff % 3600
+	m = int(q // 60)
+	q = int(q % 60)
+	duration = str(h) + ":" + str(m) + ":" + str(q)
+	return duration
 
 # setting random seed
 rand_seed = np.random.randint(0, 1000)
 random.seed(rand_seed)
 
-# paths
-dictionary_path = "addedWords.csv"
+# dictionary file path
+dictionary_path = "/home/sansingh/github/Misc_python_scripts/EnglishVocab/addedWords.txt"
 
-# read data
-data = pd.read_csv(dictionary_path, sep=';', header=None)
+# read file
+fileReadDict = open(dictionary_path, "r")
+dictData = fileReadDict.read()
+dictLines = dictData.split("\n")
 
-# make shuffled list of index
-l = data.shape[0]
-ques_seq = list(range(l))
-random.shuffle(ques_seq)
+# find out question numbers with highest mistakes
+mistakes = []
+for i in range(len(dictLines)):
+	splits = dictLines[i].split("#")[0].split(">")
+	if(len(splits) > 2):
+		mistakes.append(int(splits[len(splits) - 1]))
 
+# get indices of mistakes in descending order
+#indices = np.argsort(mistakes)[::-1]
+
+# print statistics
+mistake_stats = list(np.zeros(30, dtype=np.uint8))
+quesIndexCategoryList = []
+mistake_count = 30
+while(mistake_count >= 0):
+	tempList = []
+	for i in range(len(mistakes)):
+		if(mistakes[i] == mistake_count):
+			mistake_stats[mistake_count] = mistake_stats[mistake_count] + 1
+			tempList.append(i)
+	if(len(tempList) > 0):
+		quesIndexCategoryList.append(tempList)
+	mistake_count = mistake_count - 1
+print("Following is the statistics of previous performance: ")
+print("# mistakes" + "\t" + "# questions")
+for i in range(len(mistake_stats)):
+	if(mistake_stats[i] > 0):
+		print(str(i) + "\t" + str(mistake_stats[i]))
+print("Total:" + "\t" + str(sum(mistake_stats)))
+
+# shuffle ques indexes and form a common list
+quesList = []
+for i in range(len(quesIndexCategoryList)):
+	random.shuffle(quesIndexCategoryList[i])
+	for j in range(len(quesIndexCategoryList[i])):
+		quesList.append(quesIndexCategoryList[i][j])
+
+# start test
 # pop up questions one by one
 score = 0
-for i in range(l):
+len_quesList = len(quesList)
+for i in range(len_quesList):
+	if(i == 0):
+		t1 = time.time()
+	# print performance after every 100 words
+	if(i % 100 == 0 and i > 0):
+		print("############################################################################################")
+		t2 = time.time()
+		t_diff = t2 - t1
+		duration = getDuration(t_diff)
+		perc = (score / float(i)) * 100
+		print(colored("Your score is: " + str(score) + " out of " + str(len_quesList) + ", " + str(perc) + " %", "blue"))
+		print("Time Taken: " + duration)
+		t1 = time.time()
+		print("############################################################################################")
 	# fetch question number, question and answer
-	q_no = ques_seq.pop(0)
-	ques = data.iloc[q_no, 1]
-	ans = data.iloc[q_no, 0].strip().lower()
+	q_no = quesList[i]
+	example = dictLines[q_no].split("#")
+	if(len(example) > 1):
+		example = example[1]
+	else:
+		example = ""
+	tokens = dictLines[q_no].split("#")[0].split(">")
+	ques = tokens[1]
+	ans = tokens[0].strip().lower()
+	ans_ticks = []
+	for j in range(2, len(tokens) - 1):
+		ans_ticks.append(int(tokens[j]))
 	print("-----------------------------------------------------------------------------------------")
 	# ask question
-	print("# Ques. " + str(i + 1) + " of " + str(l))
+	print("# Ques. " + str(i + 1) + " of " + str(len_quesList) + " #mistakes = " + str(tokens[len(tokens) - 1]))
 	print(ques)
 	while(True):
 		# ask for user input
@@ -39,20 +107,64 @@ for i in range(l):
 			user_ans = user_ans.lower()
 			if(user_ans == ans):
 				score += 1
+				l = len(ans_ticks) - 1
+				while(l > 0):
+					ans_ticks[l] = ans_ticks[l - 1]
+					l = l - 1
+				ans_ticks[0] = 0
 				print(colored("CORRECT", "green"))
 			else:
+				l = len(ans_ticks) - 1
+				while(l > 0):
+					ans_ticks[l] = ans_ticks[l - 1]
+					l = l - 1
+				ans_ticks[0] = 1
 				print(colored("INCORRECT", "red"))
 			print("Ans. " + str(ans))
-			break
-		elif(choice == ' '):
+		if(choice == ' '):
+			l = len(ans_ticks) - 1
+			while(l > 0):
+				ans_ticks[l] = ans_ticks[l - 1]
+				l = l - 1
+			ans_ticks[0] = 1
 			print(colored("MISSED", "yellow"))
 			print("Ans. " + str(ans))
+		print(colored("Example: " + example, "cyan"))
+		if(len(ans_ticks) > 1 and choice != "q"):
+			for j in range(len(ans_ticks)):
+				if(j == 0):
+					tokens = str(ans_ticks[j])
+				else:
+					tokens = tokens + ">" + str(ans_ticks[j])
+			dictLines[q_no] = ans + ">" + ques + ">" + tokens + ">" + str(sum(ans_ticks)) + "#" + example
 			break
-		elif(choice == "q"):
+		if(choice == "q"):
+			for j in range(len(dictLines)):
+				if(j == 0):
+					dictData = dictLines[j]
+				else:
+					dictData = dictData + "\n" + dictLines[j]
+			fileReadDict.close()
+			fileWriteDict = open(dictionary_path, "w")
+			fileWriteDict.write(dictData)
+			fileWriteDict.close()
+			print("Data Written Successfully")
+			perc = (score / float(i)) * 100
+			print(colored("Your score is: " + str(score) + " out of " + str(i) + ", " + str(perc) + " %", "blue"))
 			print("BYE...")
 			sys.exit(0)
 
 # print score
+for j in range(len(dictLines)):
+	if(j == 0):
+		dictData = dictLines[j]
+	else:
+		dictData = dictData + "\n" + dictLines[j]
+fileReadDict.close()
+fileWriteDict = open(dictionary_path, "w")
+fileWriteDict.write(dictData)
+fileWriteDict.close()
+print("Data Written Successfully")
 print("############################################################################################")
-perc = (score / float(l)) * 100
-print(colored("Your score is: " + str(score) + " out of " + str(l) + ", " + str(perc), "blue"))
+perc = (score / float(len_quesList)) * 100
+print(colored("Your score is: " + str(score) + " out of " + str(len_quesList) + ", " + str(perc) + " %", "blue"))
