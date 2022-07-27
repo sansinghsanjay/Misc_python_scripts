@@ -54,14 +54,10 @@ if(os.path.exists(search_path) == False):
 	sys.exit(0)
 
 # git gitignore path
-gitignore_path = input("Enter path of gitignore (without any quotes, only up to directory name): ")
+gitignore_path = input("Enter path of exclude file (without any quotes, with file name 'exclude', it is at .git/info/exclude): ")
 
 # replace all back-slashes with forward-slashes
 gitignore_path = gitignore_path.replace("\\", "/")
-
-# put a forward-slash at the end if it is not there
-if(gitignore_path[len(gitignore_path) - 1] != "/"):
-	gitignore_path = gitignore_path + "/"
 
 # check if path exists or not
 if(os.path.exists(gitignore_path) == False):
@@ -85,7 +81,7 @@ while(i_ptr < len(dir_list)):
 	i_ptr = i_ptr + 1
 
 # writing gitignore list items in gitignore file
-f_ptr = open(gitignore_path + ".gitignore", "w")
+f_ptr = open(gitignore_path, "w")
 gitignore_text = ''
 for item in ignore_list:
 	gitignore_text = gitignore_text + item + "\n"
