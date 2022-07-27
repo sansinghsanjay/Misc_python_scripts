@@ -87,4 +87,4 @@ for item in ignore_list:
 	gitignore_text = gitignore_text + item + "\n"
 f_ptr.write(gitignore_text)
 f_ptr.close()
-print(".gitignore created successfully")
+print("exclude file updated successfully")
