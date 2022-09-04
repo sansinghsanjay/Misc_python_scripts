@@ -53,3 +53,6 @@ Command to delete the docker image:
 Command to load the docker image:  
 `$ docker load --input <image_name>.tar`  
 12. Now, you can run the docker image by the command provided in step 8 (above)  
+  
+## Docker - Entrypoint  
+In Dockerfiles, and ENTRYPOINT instruction is used to set executables that will always run when the container is initiated. Unlike CMD commands, ENTRYPOINT commands cannot be ignored or overriden, even when the container runs with command line arguments stated.  
