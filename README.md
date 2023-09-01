@@ -36,3 +36,9 @@ This script helped me in annotating the object of interest for the data collecte
 ## 9. Click Coordinates  
 This Python script will help to know the coordinates of any point on an image just by clicking there.  
 This functionality will help in annotating the images for object detection use cases. To accomplish this, one has to click on the corners (generally top-left corner and bottom-right corner) of the object of interest and the script will print those coordinates on image as well as on terminal.  
+  
+## 10. Search String  
+It is a Python script to search all the occurrences of a string (let's call it "search string") in all the files under a directory.  
+This script will search for the string ("search string") in all the files under all sub-directories.
+Developed in Python 2.7, on a Raspberry Pi 3, Model B.  
+However, it will work on all machines with Ubuntu and similar OSs.  
