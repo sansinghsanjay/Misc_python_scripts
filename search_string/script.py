@@ -18,7 +18,7 @@ def search_for_searchstring(file_path, search_string):
 			print(i + 1, file_path)
 
 # get directory path and if it doesn't exists, then terminate execution
-search_dir = raw_input("Enter the path of Directory: ")
+search_dir = input("Enter the path of Directory: ")
 if(os.path.exists(search_dir) == False):
 	print("x x x Path Not Found x x x")
 	sys.exit(0)
@@ -29,7 +29,7 @@ if(os.path.isdir(search_dir) == False):
 	sys.exit(0)
 
 # get type of file look into for search string
-file_types = raw_input("Enter comma-separated file extensions (NO SPACE, WITHOUT DOT) to look for search string: ")
+file_types = input("Enter comma-separated file extensions (NO SPACE, WITHOUT DOT) to look for search string: ")
 # check extension list should not have space, if space is there, terminate execution
 if(file_types.find(" ") != -1):
 	print("x x x Found spaces x x x")
@@ -37,7 +37,7 @@ if(file_types.find(" ") != -1):
 file_types = file_types.split(",")
 
 # get search string
-search_string = raw_input("Enter search string: ")
+search_string = input("Enter search string: ")
 
 # search in all files under each sub-directory
 files = os.listdir(search_dir)
